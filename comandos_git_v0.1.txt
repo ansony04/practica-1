@@ -1,0 +1,15 @@
+git init # Inicia el repositorio local.
+git add . # añade todo los archivos del repositorio.. 
+git commit -m "algun mensaje de ayuda" # Confirma sus cambios
+git branch -M main #Se cambia a la rama principal.
+git remote add origen url_del_repo # añade el repositorio central.
+git push -u origin main # añade la informacion al servidor.
+
+# Luego de esto le va a pedir el token, debe ponerlo. de igual forma
+# su nombre de usuario.
+
+## Clonando repositorios existentes:
+git remote add origin url 
+git branch -M main
+git push -u origin main
+
